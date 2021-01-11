@@ -1,0 +1,44 @@
+/* Cover photo */
+.cover-photo {
+	background-image: linear-gradient(
+			rgba(0, 0, 0, 0.3),
+			rgba(0, 0, 0, 0.3)
+		),
+		url('../../images/cover-image.jpg');
+	background-size: cover;
+	height: 1000px;
+}
+
+.cover-text-box {
+	margin: 300px auto;
+	width: 45%;
+}
+
+.cover-text-box h1 {
+	margin: 0;
+	margin-bottom: 20px;
+	color: white;
+	font-size: 240%;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	word-spacing: 4px;
+}
+
+.btn {
+	padding: 10px 30px;
+	font-weight: 300;
+	text-decoration: none;
+	border-radius: 200px;
+	transition: background-color 0.2s, border 0.2s, color 0.2s;
+	background-color: var(--primary);
+	border: 1px solid var(--primary);
+	color: white;
+	margin-right: 15px;
+	width: 12%;
+}
+
+.btn:hover {
+	background-color: var(--dark-primary);
+	color: white;
+}

@@ -1,0 +1,22 @@
+.resume-section {
+	background-color: var(--primary);
+	color: white;
+	height: 90.5vh;
+}
+
+.resume-container {
+	margin: 0px auto;
+	width: 60%;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	margin-left: 20px;
+}
+
+a {
+	color: white;
+}
