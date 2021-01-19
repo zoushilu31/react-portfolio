@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { validateEmail } from '/Users/shilu/Desktop/ucla/react-portfolio/photo-port/src/utils/helper.js';
+import { validateEmail } from '../../../utils/helper.js';
+
 import './Contact.css';
 
 function ContactForm() {

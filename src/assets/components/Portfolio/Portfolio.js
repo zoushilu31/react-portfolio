@@ -1,5 +1,5 @@
 import React from 'react';
-import '/Users/shilu/Desktop/ucla/react-portfolio/photo-port/src/assets/components/Portfolio/Porfolio.css';
+import './Porfolio.css';
 import Project from '../Project/Project';
 import activelyDistanced from '../../images/actively-distanced.png';
 import noteTaker from '../../images/note-taker.png';
